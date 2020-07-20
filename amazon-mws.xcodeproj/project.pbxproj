@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9135727B2475C3890014D43F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9135727A2475C3890014D43F /* AppDelegate.swift */; };
+		9135727D2475C3890014D43F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9135727C2475C3890014D43F /* SceneDelegate.swift */; };
+		9135727F2475C3890014D43F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9135727E2475C3890014D43F /* ViewController.swift */; };
+		913572822475C3890014D43F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 913572802475C3890014D43F /* Main.storyboard */; };
+		913572842475C38C0014D43F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 913572832475C38C0014D43F /* Assets.xcassets */; };
+		913572872475C38C0014D43F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 913572852475C38C0014D43F /* LaunchScreen.storyboard */; };
+		91EBCB2B248A49860082973E /* MWSClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EBCB2A248A49860082973E /* MWSClient.swift */; };
+		91EBCB2D248A49990082973E /* MWSEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EBCB2C248A49990082973E /* MWSEndpoint.swift */; };
+		91EBCB2F248A49AE0082973E /* GetMatchingProductForId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EBCB2E248A49AE0082973E /* GetMatchingProductForId.swift */; };
+		91EBCB31248A49EC0082973E /* Url.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EBCB30248A49EC0082973E /* Url.swift */; };
+		91EBCB33248A4A2F0082973E /* QueryItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EBCB32248A4A2F0082973E /* QueryItems.swift */; };
+		91EBCB35248A4A3C0082973E /* Signature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EBCB34248A4A3C0082973E /* Signature.swift */; };
+		91EBCB37248A4A570082973E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EBCB36248A4A570082973E /* Request.swift */; };
+		CFA596CE981B57CB8D0C6B20 /* Pods_amazon_mws.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF14FFA84E1F69FEF1C1BB5C /* Pods_amazon_mws.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		70C640081EE13F3F5AB0BAD3 /* Pods-amazon-mws.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amazon-mws.release.xcconfig"; path = "Target Support Files/Pods-amazon-mws/Pods-amazon-mws.release.xcconfig"; sourceTree = "<group>"; };
+		913572772475C3890014D43F /* amazon-mws.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "amazon-mws.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9135727A2475C3890014D43F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9135727C2475C3890014D43F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9135727E2475C3890014D43F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		913572812475C3890014D43F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		913572832475C38C0014D43F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		913572862475C38C0014D43F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		913572882475C38C0014D43F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91EBCB2A248A49860082973E /* MWSClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWSClient.swift; sourceTree = "<group>"; };
+		91EBCB2C248A49990082973E /* MWSEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWSEndpoint.swift; sourceTree = "<group>"; };
+		91EBCB2E248A49AE0082973E /* GetMatchingProductForId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMatchingProductForId.swift; sourceTree = "<group>"; };
+		91EBCB30248A49EC0082973E /* Url.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Url.swift; sourceTree = "<group>"; };
+		91EBCB32248A4A2F0082973E /* QueryItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryItems.swift; sourceTree = "<group>"; };
+		91EBCB34248A4A3C0082973E /* Signature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signature.swift; sourceTree = "<group>"; };
+		91EBCB36248A4A570082973E /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		AF286DAA9C265052BE852B96 /* Pods-amazon-mws.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amazon-mws.debug.xcconfig"; path = "Target Support Files/Pods-amazon-mws/Pods-amazon-mws.debug.xcconfig"; sourceTree = "<group>"; };
+		CF14FFA84E1F69FEF1C1BB5C /* Pods_amazon_mws.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_amazon_mws.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		913572742475C3890014D43F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA596CE981B57CB8D0C6B20 /* Pods_amazon_mws.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C72BB58F38420B8D5B0C814 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF286DAA9C265052BE852B96 /* Pods-amazon-mws.debug.xcconfig */,
+				70C640081EE13F3F5AB0BAD3 /* Pods-amazon-mws.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		33C9F148D54CC03EF3E3937F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF14FFA84E1F69FEF1C1BB5C /* Pods_amazon_mws.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9135726E2475C3890014D43F = {
+			isa = PBXGroup;
+			children = (
+				913572792475C3890014D43F /* amazon-mws */,
+				913572782475C3890014D43F /* Products */,
+				2C72BB58F38420B8D5B0C814 /* Pods */,
+				33C9F148D54CC03EF3E3937F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		913572782475C3890014D43F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				913572772475C3890014D43F /* amazon-mws.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		913572792475C3890014D43F /* amazon-mws */ = {
+			isa = PBXGroup;
+			children = (
+				91EBCB26248A48070082973E /* Networking */,
+				9135727A2475C3890014D43F /* AppDelegate.swift */,
+				9135727C2475C3890014D43F /* SceneDelegate.swift */,
+				9135727E2475C3890014D43F /* ViewController.swift */,
+				913572802475C3890014D43F /* Main.storyboard */,
+				913572832475C38C0014D43F /* Assets.xcassets */,
+				913572852475C38C0014D43F /* LaunchScreen.storyboard */,
+				913572882475C38C0014D43F /* Info.plist */,
+			);
+			path = "amazon-mws";
+			sourceTree = "<group>";
+		};
+		91EBCB26248A48070082973E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				91EBCB29248A49330082973E /* Models */,
+				91EBCB28248A49280082973E /* Extensions */,
+				91EBCB27248A49210082973E /* Logic */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		91EBCB27248A49210082973E /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				91EBCB34248A4A3C0082973E /* Signature.swift */,
+				91EBCB36248A4A570082973E /* Request.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		91EBCB28248A49280082973E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				91EBCB30248A49EC0082973E /* Url.swift */,
+				91EBCB32248A4A2F0082973E /* QueryItems.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		91EBCB29248A49330082973E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				91EBCB2A248A49860082973E /* MWSClient.swift */,
+				91EBCB2C248A49990082973E /* MWSEndpoint.swift */,
+				91EBCB2E248A49AE0082973E /* GetMatchingProductForId.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		913572762475C3890014D43F /* amazon-mws */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9135728B2475C38C0014D43F /* Build configuration list for PBXNativeTarget "amazon-mws" */;
+			buildPhases = (
+				13831A89836DB0492401A1E8 /* [CP] Check Pods Manifest.lock */,
+				913572732475C3890014D43F /* Sources */,
+				913572742475C3890014D43F /* Frameworks */,
+				913572752475C3890014D43F /* Resources */,
+				4DCB50C9958B96B6BAAC81C3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "amazon-mws";
+			productName = "amazon-mws";
+			productReference = 913572772475C3890014D43F /* amazon-mws.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9135726F2475C3890014D43F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Naum Shapkarovski";
+				TargetAttributes = {
+					913572762475C3890014D43F = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 913572722475C3890014D43F /* Build configuration list for PBXProject "amazon-mws" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9135726E2475C3890014D43F;
+			productRefGroup = 913572782475C3890014D43F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				913572762475C3890014D43F /* amazon-mws */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		913572752475C3890014D43F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				913572872475C38C0014D43F /* LaunchScreen.storyboard in Resources */,
+				913572842475C38C0014D43F /* Assets.xcassets in Resources */,
+				913572822475C3890014D43F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13831A89836DB0492401A1E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-amazon-mws-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DCB50C9958B96B6BAAC81C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-amazon-mws/Pods-amazon-mws-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-amazon-mws/Pods-amazon-mws-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-amazon-mws/Pods-amazon-mws-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		913572732475C3890014D43F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91EBCB2B248A49860082973E /* MWSClient.swift in Sources */,
+				9135727F2475C3890014D43F /* ViewController.swift in Sources */,
+				91EBCB31248A49EC0082973E /* Url.swift in Sources */,
+				91EBCB35248A4A3C0082973E /* Signature.swift in Sources */,
+				91EBCB33248A4A2F0082973E /* QueryItems.swift in Sources */,
+				91EBCB2F248A49AE0082973E /* GetMatchingProductForId.swift in Sources */,
+				9135727B2475C3890014D43F /* AppDelegate.swift in Sources */,
+				91EBCB37248A4A570082973E /* Request.swift in Sources */,
+				9135727D2475C3890014D43F /* SceneDelegate.swift in Sources */,
+				91EBCB2D248A49990082973E /* MWSEndpoint.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		913572802475C3890014D43F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				913572812475C3890014D43F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		913572852475C38C0014D43F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				913572862475C38C0014D43F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		913572892475C38C0014D43F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9135728A2475C38C0014D43F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9135728C2475C38C0014D43F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF286DAA9C265052BE852B96 /* Pods-amazon-mws.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WYK54CL25N;
+				INFOPLIST_FILE = "amazon-mws/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "product.amazon-mws";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9135728D2475C38C0014D43F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70C640081EE13F3F5AB0BAD3 /* Pods-amazon-mws.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WYK54CL25N;
+				INFOPLIST_FILE = "amazon-mws/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "product.amazon-mws";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		913572722475C3890014D43F /* Build configuration list for PBXProject "amazon-mws" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				913572892475C38C0014D43F /* Debug */,
+				9135728A2475C38C0014D43F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9135728B2475C38C0014D43F /* Build configuration list for PBXNativeTarget "amazon-mws" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9135728C2475C38C0014D43F /* Debug */,
+				9135728D2475C38C0014D43F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9135726F2475C3890014D43F /* Project object */;
+}
